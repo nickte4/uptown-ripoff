@@ -32,6 +32,13 @@
   top: 40px;
   left: 240px;
 }
+.logo.scam {
+  background-image: url(./images/scam.png);
+  left: 375px;
+  width: 180px;
+  height: 80px;
+  top: 12px;
+}
 
 .socials {
   display: flex;
