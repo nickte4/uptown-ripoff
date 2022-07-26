@@ -8,6 +8,66 @@
   font-family: BebasNeue, "sans-serif";
 }
 
+/* navbar styling */
+.navbar {
+  position: sticky;
+  font-size: 28px;
+  background-image: url(./images/menuBanner.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 95px;
+  color: white;
+}
+
+.logo {
+  position: absolute;
+  background-image: url(./images/UptownCheapskate_Logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 280px;
+  height: 100px;
+  top: 40px;
+  left: 240px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 8px;
+  left: 1290px;
+}
+.social1,
+.social2,
+.social3 {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+}
+.social1 {
+  background-image: url(./images/facebook.png);
+}
+.social2 {
+  background-image: url(./images/insta.png);
+}
+.social3 {
+  background-image: url(./images/twitter.png);
+}
+
+.navbar ul {
+  position: relative;
+  top: 35px;
+  left: 580px;
+  list-style-type: none;
+}
+
+.navbar li {
+  float: left;
+  padding: 16px;
+}
+
 /* big image styling */
 .big-image {
   width: 100%;
