@@ -182,3 +182,34 @@
   width: 1200px;
   height: 90%;
 }
+.fashion-box h1,
+.fashion-box p {
+  text-align: center;
+  color: white;
+  position: relative;
+}
+.fashion-box h1 {
+  font-size: 52px;
+  top: 50px;
+}
+.fashion-box p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 28pt;
+  top: 70px;
+  left: 35px;
+  width: 95%;
+}
+.fashion-box button {
+  background-color: white;
+  border-width: 0px;
+  color: #596958;
+  width: 175px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  position: relative;
+  left: 510px;
+  top: 90px;
+}
