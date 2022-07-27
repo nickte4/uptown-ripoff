@@ -6,6 +6,9 @@
   margin: 0;
   padding: 0;
 }
+body {
+  height: 5000px;
+}
 
 /* NAVBAR styling */
 .navbar {
@@ -174,7 +177,7 @@
 
 /* SECTION: resale styling */
 
-.resale {
+.fashion {
   width: 100%;
   height: 500px;
   overflow-y: hidden;
@@ -260,4 +263,54 @@
   left: 570px;
   bottom: 300px;
   border-width: 0px;
+}
+
+/* SECTION: resale styling */
+.resale {
+  width: 100%;
+  height: 650px;
+  overflow-y: hidden;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.resale h1,
+.resale p {
+  color: #6c7967;
+  position: relative;
+  left: 245px;
+}
+.resale h1 {
+  font-size: 42px;
+  line-height: 45pt;
+}
+.resale p {
+  font-size: 18px;
+  width: 575px;
+  top: 20px;
+  line-height: 20pt;
+}
+.resale img {
+  width: 580px;
+  height: 650px;
+  position: relative;
+  left: 200px;
+  bottom: 450px;
+}
+.resale button {
+  background-color: #6c7967;
+  color: white;
+  width: 325px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 18px;
+  position: relative;
+  border-width: 0px;
+}
+#franchise-button {
+  bottom: 580px;
+  left: 245px;
+}
+#job-button {
+  bottom: 500px;
+  right: 85px;
 }
