@@ -5,12 +5,13 @@
 * {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
 }
 
 /* NAVBAR styling */
 .navbar {
+  position: -webkit-sticky;
   position: sticky;
+  top: 0;
   font-size: 20px;
   background-image: url(./images/menuBanner.jpg);
   background-size: cover;
@@ -20,6 +21,7 @@
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   overflow-y: hidden;
+  z-index: 2;
 }
 
 .logo {
@@ -130,6 +132,7 @@
 .row2 {
   display: flex;
   justify-content: center;
+  overflow-y: hidden;
 }
 
 .row1 {
