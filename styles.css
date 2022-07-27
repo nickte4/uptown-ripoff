@@ -81,7 +81,7 @@
 /* big image styling */
 .big-image {
   width: 100%;
-  height: 750px;
+  height: 650px;
   overflow-y: hidden;
 }
 .big-img {
@@ -111,4 +111,60 @@
 }
 #brown-text {
   color: #bc946c;
+}
+
+/* options styling */
+.options {
+  display: grid;
+  grid-template-rows: 80px 100px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #555557;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  width: 100%;
+  height: 200px;
+}
+
+.row1,
+.row2 {
+  display: flex;
+  justify-content: center;
+}
+
+.row1 {
+  height: 80px;
+}
+
+.row2 p {
+  margin-left: 70px;
+  margin-right: 70px;
+  position: relative;
+  top: 25px;
+  right: 5px;
+}
+
+.books,
+.recycle,
+.location,
+.store {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  background-image: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  top: 780px;
+}
+.books {
+  left: 350px;
+}
+.recycle {
+  left: 640px;
+}
+.location {
+  left: 940px;
+}
+.store {
+  left: 1245px;
 }
