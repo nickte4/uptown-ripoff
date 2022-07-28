@@ -351,6 +351,52 @@ iframe {
 }
 
 /* SECTION: favorite-styles styling */
+.favorite-styles {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+}
+.favorite-styles h1 {
+  text-align: center;
+  color: #6c7967;
+  font-size: 42px;
+}
+.styles-row1,
+.styles-row2 {
+  display: flex;
+  justify-content: center;
+}
+.styles-row1 img {
+  width: 256px;
+  height: 256px;
+  margin: 18px;
+}
+.styles-row2 {
+  position: relative;
+}
+.styles-row2 p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #b2c0c1;
+  font-size: 20px;
+  position: absolute;
+}
+.img-text1 {
+  left: 185px;
+}
+.img-text2 {
+  left: 515px;
+}
+.img-text3 {
+  left: 775px;
+}
+.img-text4 {
+  left: 1045px;
+}
+.img-text5 {
+  left: 1360px;
+}
 
 /* SECTION: brands styling */
 
